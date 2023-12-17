@@ -1,12 +1,15 @@
-import { PostView } from "./features/Posts/postView"
+// import { Postview } from "./features/Posts/postView"
+
+import View from "./features/Posts/view"
 
 
 const App = () => {
   return (
-    <>
+    <div>
     <div className="text-center text-4xl ">App</div>
-    <PostView />
-    </>
+    {/* <Postview /> */}
+    <View />
+    </div>
   )
 }
 
